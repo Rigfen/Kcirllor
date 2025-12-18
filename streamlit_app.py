@@ -12,4 +12,4 @@ div.stButton > button {
 """, unsafe_allow_html=True)
 
 if st.button("Just a little app"):
-    st.video("https://www.youtube.com/watch?v=xvFZjo5PgG0")
+    st.video("https://www.youtube.com/watch?v=xvFZjo5PgG0", start_time=0)
