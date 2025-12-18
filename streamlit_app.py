@@ -4,12 +4,21 @@ st.markdown("""
 <style>
 div.stButton > button {
     width: 100%;
-    height: 160px;
-    font-size: 40px;
-    border-radius: 16px;
+    height: 120px;
+    font-size: 32px;
+    font-weight: bold;
 }
 </style>
 """, unsafe_allow_html=True)
 
-if st.button("Just a little app"):
-    st.video("https://www.youtube.com/watch?v=xvFZjo5PgG0", start_time=0)
+if st.button("Enjoy"):
+    st.markdown("""
+    <iframe
+        width="100%"
+        height="450"
+        src="https://www.youtube.com/embed/xvFZjo5PgG0?autoplay=1"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+    </iframe>
+    """, unsafe_allow_html=True)
