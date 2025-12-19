@@ -16,7 +16,7 @@ if st.button("Enjoy"):
     <iframe
         width="100%"
         height="450"
-        src="https://www.youtube.com/embed/xvFZjo5PgG0?autoplay=1"
+        src="https://www.youtube.com/embed/xvFZjo5PgG0?autoplay=1&mute=1&playsinline=1"
         frameborder="0"
         allow="autoplay; encrypted-media"
         allowfullscreen>
